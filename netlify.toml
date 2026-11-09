@@ -1,0 +1,7 @@
+# Versão sem pastas: a página e o servidor ficam na raiz do repositório
+[build]
+  publish = "."
+
+[functions]
+  directory = "."
+  node_bundler = "esbuild"
